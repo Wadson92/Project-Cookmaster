@@ -20,9 +20,14 @@ const validUserId = {
   message: ERROR_USERID,
 };
 
+const validRecipeId = {
+  message: 'recipe not found',
+};
+
 module.exports = {
   validUser,
   validLogin,
   validEmailOrPass,
   validUserId,
+  validRecipeId,
 };
