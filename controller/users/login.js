@@ -2,7 +2,6 @@ const jwt = require('jsonwebtoken');
 const login = require('../../service/users/login');
 
 const createLogin = async (req, res) => {
-  console.log('chegou aqui');
   try {
     const API_SECRET = 'mySecret';
     const jwtConfig = {

@@ -24,10 +24,15 @@ const validRecipeId = {
   message: 'recipe not found',
 };
 
+const deleteRecipe = {
+  message: 'missing auth token',
+};
+
 module.exports = {
   validUser,
   validLogin,
   validEmailOrPass,
   validUserId,
   validRecipeId,
+  deleteRecipe,
 };

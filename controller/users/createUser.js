@@ -9,7 +9,6 @@ module.exports = async (req, res) => {
     }
     return res.status(201).json({ user: create });
   } catch (error) {
-    console.log(error);
     res.status(400).status(error);
   }
 };
