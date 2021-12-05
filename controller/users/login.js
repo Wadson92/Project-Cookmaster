@@ -6,7 +6,7 @@ const createLogin = async (req, res) => {
   try {
     const API_SECRET = 'mySecret';
     const jwtConfig = {
-      expiresIn: '15h',
+      expiresIn: '15d',
       algorithm: 'HS256',
     };
     const { email, password } = req.body;
